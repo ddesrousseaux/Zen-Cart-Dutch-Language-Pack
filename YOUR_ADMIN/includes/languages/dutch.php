@@ -627,8 +627,8 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('BUTTON_PRODUCTS_TO_CATEGORIES_ALT', 'Kopieer artikel naar meerdere categorieën');
 
   define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');//nog vertalen
-  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Display Global Features - ON');//nog vertalen
-define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');//nog vertalen
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Laat globale eigenschappen zien - AAN');
+define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Laat globale eigenschappen zien - UIT');
 
 // moved from categories and all product type language files
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fout: Gekoppelde artikelen kunnen niet in dezelfde categorie gekoppeld worden.');
