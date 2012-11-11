@@ -2,7 +2,8 @@ Zen-Cart-Dutch-Language-Pack BETA
 ============================
 
 Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
-
+<h3>Wat er nog vertaald en aangepast moet worden</h3>
+<p>in de file nog te vertalen staat opgesomd welke files en regels nog vertaald moeten worden. Hulp is welkom!</p>
 <h3>Installeer de files</h3>
 <ol>
 <li>Unzip het pakket naar een folder.</li>
@@ -20,7 +21,7 @@ Dit is Het nieuwe BETA Nederlandse taalpakket 1.6 voor Zen Cart 1.6 Beta
 <li>/includes/languages/english/modules/shipping/usps.php</li>
 </ul>
 </li>
-<li>Als u <b>upgrade</b> vanaf Zen cart 1.5.0 kunt u de volgende files van uw live server verwijderen, deze zitten <strong>standaard</strong> niet meer in Zen Cart:
+<li>Als u <b>upgrade</b> vanaf Zen cart 1.5.x kunt u de volgende files van uw live server verwijderen, deze zitten <strong>standaard</strong> niet meer in Zen Cart:
 <ul>
 <li></li>
 </ul>
