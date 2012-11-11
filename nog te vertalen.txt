@@ -1,8 +1,6 @@
 ADMIN
 dutch.php
   regel 629:  define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');
-  regel 630:  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Display Global Features - ON');
-  regel 631:  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');
 
 coupon_restrict.php
   regel 30:  define('TEXT_ALL_PRODUCTS_ADD', 'Add All Category Products');
