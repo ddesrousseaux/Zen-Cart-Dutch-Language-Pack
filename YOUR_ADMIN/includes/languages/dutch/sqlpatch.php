@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -52,7 +52,7 @@ INSERT INTO table1 <br />
 SELECT p.othercol_a, p.othercol_b, po.othercol_c, pm.othercol_d<br />
 FROM table2 p, table3 pm<br />
 LEFT JOIN othercol_f po<br />
-ON p.othercol_f = po.othercol_f<br />
+ON pm.othercol_f = po.othercol_f<br />
 WHERE p.othercol_f = pm.othercol_f;</li>
 </ul></code>' );
   define('REASON_TABLE_ALREADY_EXISTS','Maken van tabel %s niet mogelijk omdat deze al bestaat.');
