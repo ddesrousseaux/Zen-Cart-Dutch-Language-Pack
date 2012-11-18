@@ -20,9 +20,3 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.php	 diff=astextplain
-*.PHP	 diff=astextplain
-*.html  diff=astextplain
-*.HTML  diff=astextplain
-*.css  diff=astextplain
-*.CSS  diff=astextplain
