@@ -1,11 +1,11 @@
 <?php
 /**
- * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: dutch translation voor zen cart 1.6.x
- * @version $Id$
- */
+* @package admin
+* @copyright Copyright 2003-2012 Zen Cart Development Team
+* @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+* @version $Id: dutch translation voor zen cart 1.6.x
+* @version $Id$
+*/
 
 
 // look in your $PATH_LOCALE/locale directory for available locales..
@@ -15,10 +15,10 @@ define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-define('DATE_FORMAT_DATEPICKER_ADMIN', 'dd/MM/yyyy');  //Use only 'dd', 'MM' and 'yyyy' here in any order
+define('DATE_FORMAT_DATEPICKER_ADMIN', zen_date_datepicker(DATE_FORMAT)); //Use only 'dd', 'MM' and 'yyyy' here in any order
 
 ////
-// Return date in raw format
+// Return date in raw format - DEPRECATED
 // $date should be in format mm/dd/yyyy
 // raw date is in format YYYYMMDD, or DDMMYYYY
 // Onderstaand is Nederlandse notatie voor geboortedata 
@@ -28,6 +28,13 @@ function zen_date_raw($date, $reverse = false) {
   } else {
     return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
   }
+}
+function zen_date_datepicker($format)
+{
+  $date = preg_replace('/[ds]/', 'dd', $format);
+  $date = preg_replace('/[mn]/', 'mm', $date);
+  $date = preg_replace('/[yY]/', 'yy', $date);
+  return $date;
 }
 
 // Global entries for the <html> tag
