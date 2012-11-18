@@ -27,8 +27,8 @@ define('IMAGE_REMOVE', 'Verwijderen');
 define('TEXT_ALL_CATEGORIES', 'Alle Categorieën');
 
 define('MAX_DISPLAY_RESTRICT_ENTRIES', 20);
-define('TEXT_ALL_PRODUCTS_ADD', 'Add All Category Products');//nog te vertalen
-define('TEXT_ALL_PRODUCTS_REMOVE', 'Remove All Category Products');//nog te vertalen
+define('TEXT_ALL_PRODUCTS_ADD', 'Voeg alle produkten in deze categorie toe');
+define('TEXT_ALL_PRODUCTS_REMOVE', 'Verwijder alle produkten in deze categorie');
 define('TEXT_INFO_ADD_DENY_ALL', '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />
                     For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>');//nog te vertalen
 
