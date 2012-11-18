@@ -626,7 +626,7 @@ define('ENTRY_NOTHING_TO_SEND','De e-mail bevat geen inhoud');
   define('BUTTON_PRODUCTS_TO_CATEGORIES', 'Linkmanager artikel naar meerdere categorieën');
   define('BUTTON_PRODUCTS_TO_CATEGORIES_ALT', 'Kopieer artikel naar meerdere categorieën');
 
-  define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');//nog vertalen
+  define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'De status van alle globale kopieer, toevoegen en verwijderen van opties is op dit moment UIT');
   define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Laat globale eigenschappen zien - AAN');
 define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Laat globale eigenschappen zien - UIT');
 
