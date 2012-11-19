@@ -114,7 +114,5 @@ no_account.php
  Alles
 
 order_status.php
- Alles
-
-time_out.php
-  regel 15:  define('TEXT_INFORMATION', '<p>Als u een bestelling aan het plaatsen was log dan in en uw winkelwagen zal worden hersteld. U kunt daarna opnieuw afrekenen.</p><p>Als u een bestelling had geplaatst en u de status wilde controleren' . (DOWNLOAD_ENABLED == 'true' ? ', of als het om een artikel gaat dat u wilde downloaden' : '') . ', Ga dan naar de <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Mijn account</a> pagina om uw bestelling terug te zien.</p><p>If you are using a <b>CheckOut WithOut an Account</b> connection, your session was timed out because you connected via an Order Status E-Mail and you must start over.</p>');
+  regel 31:  define('HEADING_ORDER_HISTORY', 'Status History &amp; Comments');
+  regel 47:  define('TEXT_LOOKUP_INSTRUCTIONS', 'To lookup the status of an order, please enter the order number and the e-mail address with which it was placed.');
