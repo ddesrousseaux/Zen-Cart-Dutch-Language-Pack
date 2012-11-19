@@ -9,40 +9,40 @@
  */
 //
 
-define('NAVBAR_TITLE', 'Order Status');
-define('NAVBAR_TITLE_1', 'My Account');
+define('NAVBAR_TITLE', 'Orderstatus');
+define('NAVBAR_TITLE_1', 'Mijn account');
 
-define('HEADING_TITLE', 'Lookup Order Information');
+define('HEADING_TITLE', 'Orderinformatie opzoeken');
 
-define('SUB_HEADING_TITLE', 'Order Information');
+define('SUB_HEADING_TITLE', 'Orderinformatie');
 
-define('HEADING_ORDER_NUMBER', 'Order #%s');
-define('HEADING_ORDER_DATE', 'Order Date:');
-define('HEADING_ORDER_TOTAL', 'Order Total:');
+define('HEADING_ORDER_NUMBER', 'Ordernr. %s');
+define('HEADING_ORDER_DATE', 'Besteldatum:');
+define('HEADING_ORDER_TOTAL', 'Order Totasl:');
 
-define('HEADING_PRODUCTS', 'Products');
-define('HEADING_TAX', 'Tax');
-define('HEADING_TOTAL', 'Total');
-define('HEADING_QUANTITY', 'Qty.');
+define('HEADING_PRODUCTS', 'Produkten');
+define('HEADING_TAX', 'Btw');
+define('HEADING_TOTAL', 'Totaal');
+define('HEADING_QUANTITY', 'Aantal');
 
-define('HEADING_SHIPPING_METHOD', 'Shipping Method');
-define('HEADING_PAYMENT_METHOD', 'Payment Method');
+define('HEADING_SHIPPING_METHOD', 'Verzendmethode');
+define('HEADING_PAYMENT_METHOD', 'Betaalmethode');
 
 define('HEADING_ORDER_HISTORY', 'Status History &amp; Comments');
-define('TEXT_NO_COMMENTS_AVAILABLE', 'No comments available.');
-define('TABLE_HEADING_STATUS_DATE', 'Date');
-define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Order Status');
-define('TABLE_HEADING_STATUS_COMMENTS', 'Comments');
-define('QUANTITY_SUFFIX', '&nbsp;ea.  ');
+define('TEXT_NO_COMMENTS_AVAILABLE', 'Geen opmerkingen beschikbaar.');
+define('TABLE_HEADING_STATUS_DATE', 'Datum');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Orderstatus');
+define('TABLE_HEADING_STATUS_COMMENTS', 'Opmerkingen');
+define('QUANTITY_SUFFIX', '&nbsp;x  ');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
 
-define('ENTRY_EMAIL', 'E-Mail Address:');
-define('ENTRY_ORDER_NUMBER', 'Order Number:');
+define('ENTRY_EMAIL', 'E-mailadres:');
+define('ENTRY_ORDER_NUMBER', 'Ordernummer:');
 
-define('ERROR_INVALID_EMAIL', '<strong>You have entered an invalid e-mail address.</strong><br /><br />');
-define('ERROR_INVALID_ORDER', '<strong>You have entered an invalid order number.</strong><br /><br />');
-define('ERROR_NO_MATCH', '<strong>No match found for your entry.</strong><br /><br />');
+define('ERROR_INVALID_EMAIL', '<strong>U heeft een ongeldig e-mailadres ingevoerd.</strong><br /><br />');
+define('ERROR_INVALID_ORDER', '<strong>U heeft een ongeldig ordernummer ingevoerd.</strong><br /><br />');
+define('ERROR_NO_MATCH', '<strong>Er is geen match gevonden met wat u hebt opgegeven.</strong><br /><br />');
 
 define('TEXT_LOOKUP_INSTRUCTIONS', 'To lookup the status of an order, please enter the order number and the e-mail address with which it was placed.');
 // eof
