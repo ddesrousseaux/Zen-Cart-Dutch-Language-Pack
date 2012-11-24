@@ -21,40 +21,40 @@
 // $Id: checkout_process.php 1969 2005-09-13 06:57:21Z drbyte $ Integrated COWOA v2.2 - 2007 - 2012
 //
 
-define('EMAIL_TEXT_SUBJECT', 'Order Confirmation');
-define('EMAIL_TEXT_HEADER', 'Order Confirmation');
-define('EMAIL_TEXT_FROM',' from ');  //added to the EMAIL_TEXT_HEADER, above on text-only emails
-define('EMAIL_THANKS_FOR_SHOPPING','Thanks for shopping with us today!');
-define('EMAIL_DETAILS_FOLLOW','The following are the details of your order.');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Order Number:');
+define('EMAIL_TEXT_SUBJECT', 'Orderbevestiging');
+define('EMAIL_TEXT_HEADER', 'Orderbevestiging');
+define('EMAIL_TEXT_FROM',' van ');  //added to the EMAIL_TEXT_HEADER, above on text-only emails
+define('EMAIL_THANKS_FOR_SHOPPING','Bedankt voor uw bestelling!');
+define('EMAIL_DETAILS_FOLLOW','Hier volgen de details van uw bestelling.');
+define('EMAIL_TEXT_ORDER_NUMBER', 'Ordernummer:');
 
 //IF COWOA ACCOUNT CHANGE TO ORDER STATUS
 if($_SESSION['COWOA']) $COWOA=TRUE;
 if($COWOA)
-define('EMAIL_TEXT_INVOICE_URL', 'Check order status:');
+define('EMAIL_TEXT_INVOICE_URL', 'Check orderstatus:');
 else
-define('EMAIL_TEXT_INVOICE_URL', 'Detailed Invoice:');
+define('EMAIL_TEXT_INVOICE_URL', 'Gedetaileerde facuur:');
 if($COWOA)
-define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Click here to check the status of your order');
+define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier om de status van uw bestelling te controleren');
 else
-define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Click here for a Detailed Invoice');
+define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Klik hier voor een gedetaileerde factuur');
 // END IF COWOA ACCOUNT
 
-define('EMAIL_TEXT_DATE_ORDERED', 'Date Ordered:');
-define('EMAIL_TEXT_PRODUCTS', 'Products');
-define('EMAIL_TEXT_SUBTOTAL', 'Sub-Total:');
-define('EMAIL_TEXT_TAX', 'Tax:        ');
-define('EMAIL_TEXT_SHIPPING', 'Shipping: ');
-define('EMAIL_TEXT_TOTAL', 'Total:    ');
-define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Delivery Address');
-define('EMAIL_TEXT_BILLING_ADDRESS', 'Billing Address');
-define('EMAIL_TEXT_PAYMENT_METHOD', 'Payment Method');
+define('EMAIL_TEXT_DATE_ORDERED', 'Besteldatum:');
+define('EMAIL_TEXT_PRODUCTS', 'Artikelen');
+define('EMAIL_TEXT_SUBTOTAL', 'Subtotaal:');
+define('EMAIL_TEXT_TAX', 'Btw:        ');
+define('EMAIL_TEXT_SHIPPING', 'Verzendkosten: ');
+define('EMAIL_TEXT_TOTAL', 'Totaal:    ');
+define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Afleveradres');
+define('EMAIL_TEXT_BILLING_ADDRESS', 'Factuuadres');
+define('EMAIL_TEXT_PAYMENT_METHOD', 'Betaalwijze');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('TEXT_EMAIL_VIA', 'via');
 
 // suggest not using # vs No as some spamm protection block emails with these subjects
-define('EMAIL_ORDER_NUMBER_SUBJECT', ' No: ');
-define('HEADING_ADDRESS_INFORMATION','Address Information');
-define('HEADING_SHIPPING_METHOD','Shipping Method');
+define('EMAIL_ORDER_NUMBER_SUBJECT', ' Nr: ');
+define('HEADING_ADDRESS_INFORMATION','Adresinformatie');
+define('HEADING_SHIPPING_METHOD','Verzendmethode');
 // eof

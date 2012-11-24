@@ -9,5 +9,5 @@
  */
 
 // this is used to display the text link in the "information" or other sidebox
-define('BOX_INFORMATION_ORDER_STATUS', 'Order Status');
+define('BOX_INFORMATION_ORDER_STATUS', 'Orderstatus');
 // eof
