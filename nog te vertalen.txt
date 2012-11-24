@@ -13,16 +13,11 @@ store_manager.php
   regel 68:  define('SUCCESS_CLEAN_DEBUG_FILES', 'Debug Log Files Purged');
   
 CATALOG
+
 extra_definitions/cardinal3dsecure.php
  Alles
 
 extra_definitions/checkout_process.php
- Alles
-
-extra_definitions/order_status.php
- Alles
-
-extra_definitions/order_steps_defines.php
  Alles
 
 modules/payment/authorizenet.php en modules/payment/authorizenet_aim.php
