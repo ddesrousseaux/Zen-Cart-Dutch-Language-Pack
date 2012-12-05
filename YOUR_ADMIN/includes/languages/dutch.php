@@ -233,7 +233,7 @@ define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
 define('ENTRY_EMAIL_ADDRESS_ERROR', '&nbsp;<span class="errorText">minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' karakters</span>');
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', '&nbsp;<span class="errorText">Het opgegeven e-mailadres liijkt niet geldig te zijn!</span>');
 define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', '&nbsp;<span class="errorText">Uw e-mailadres is reeds bij ons geregistreerd!</span>');
-define('ENTRY_COMPANY', 'Bedrijsnaam');
+define('ENTRY_COMPANY', 'Bedrijfsnaam');
 define('ENTRY_COMPANY_ERROR', '');
 define('ENTRY_PRICING_GROUP', 'Kortingsgroep');
 define('ENTRY_STREET_ADDRESS', 'Straatnaam:');
