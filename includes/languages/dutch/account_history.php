@@ -14,8 +14,8 @@ define('NAVBAR_TITLE_2', 'Geschiedenis');
 define('HEADING_TITLE', 'Mijn order historie');
 
 define('TEXT_ORDER_NUMBER', 'Ordernummer: ');
-define('TEXT_ORDER_STATUS', 'Order status: ');
-define('TEXT_ORDER_DATE', 'Order datum: ');
+define('TEXT_ORDER_STATUS', 'Orderstatus: ');
+define('TEXT_ORDER_DATE', 'Orderdatum: ');
 define('TEXT_ORDER_SHIPPED_TO', 'Verzenden naar: ');
 define('TEXT_ORDER_BILLED_TO', 'Factuuradres: ');
 define('TEXT_ORDER_PRODUCTS', 'Artikelen: ');

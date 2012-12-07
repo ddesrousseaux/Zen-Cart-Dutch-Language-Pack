@@ -25,5 +25,5 @@
   define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Verzendkosten');
 
   define('FREE_SHIPPING_TITLE', 'Geen verzendkosten!');
-  define('FREE_SHIPPING_DESCRIPTION', 'Geen verzendkosten bij een minimum besteldbedrag van %s');
+  define('FREE_SHIPPING_DESCRIPTION', 'Geen verzendkosten bij een minimum bestelbedrag van %s');
 ?>

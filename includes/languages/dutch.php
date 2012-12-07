@@ -554,7 +554,7 @@
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Prijs - hoog -> laag');
   define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Model');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Datum toegevoegd - nieuw -> oud');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Dattum toegevoegd - oud -> nieuw');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Datum toegevoegd - oud -> nieuw');
   define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Standaard weergave');
 
 // defenities voor de download module
