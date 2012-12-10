@@ -1,5 +1,9 @@
 ADMIN
 
+attribute_controller.php
+  regel 126: define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO_MANUAL','Or, Manually enter the Product by products_id to copy all attributes to:');
+  regel 130:  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO_MANUAL','Or, Manually enter the Category by categories_id to copy all attributes to:');
+
 coupon_restrict.php
   regel 32:  define('TEXT_INFO_ADD_DENY_ALL', '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />                    For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>');
 
