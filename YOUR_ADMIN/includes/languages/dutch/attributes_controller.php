@@ -123,9 +123,11 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_ATTRIBUTES_COPY_TO_PRODUCTS','Artikel');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO_PRODUCT','Kopieer opties, naar een ander <strong>artikel</strong>, van artikel ID');
   define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO','Selecteer het artikel om opties naar te kopiëren:');
+  define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO_MANUAL','Or, Manually enter the Product by products_id to copy all attributes to:');
 
   define('TEXT_ATTRIBUTES_COPY_TO_CATEGORY','Categorie');
   define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO','Selecteer de categorie om opties naar te kopiëren:');
+  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO_MANUAL','Or, Manually enter the Category by categories_id to copy all attributes to:');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO_CATEGORY','Kopieer opties, naar een <strong>categorie</strong>, van artikel ID');
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS','<strong>Hoe om te gaan met bestaande opties van een artikel?</strong>');
