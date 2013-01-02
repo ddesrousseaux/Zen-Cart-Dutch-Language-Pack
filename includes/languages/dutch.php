@@ -7,42 +7,7 @@
  * @version $Id: dutch.php based on english.php 19690 2011-10-04 16:41:45Z drbyte $
  */
 
-// ONDERSTAANDE IS verplaatst naar meta_tags.php
-//define('TITLE', 'Zen Cart!');
-//define('SITE_TAGLINE', 'De kunst van eCommerce');
-//define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, zen-cart.com, online shopping');
-// EINDE: verplaatst naar meta_tags.php
-
   define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
-
-// kijk in je $PATH_LOCALE/locatie directorie voor beschikbare locatie instellingen..
-  @setlocale(LC_TIME, 'dutch');
-  define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
-  define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
-  define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
-  define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-
-// Datum in onopgemaakt formaat
-// $date moet alsvolgt zijn dd/mm/yyyy
-// onopgemaakte datum is YYYYMMDD, of DDMMYYYY
-  if (!function_exists('zen_date_raw')) {
-    function zen_date_raw($date, $reverse = false) {
-      if ($reverse) {
-        return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
-      } else {
-        return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
-      }
-    }
-  }
-
-// als USE_DEFAULT_LANGUAGE_CURRENCY aanstaat gebruik dan de onderstaande valuta i.p.v. de ingestelde standaard valuta.
-  define('LANGUAGE_CURRENCY', 'EUR');
-
-// algemene gegevens voor <html> tags
-  define('HTML_PARAMS','dir="ltr" lang="nl"');
-
-// karakterset voor webpaginas en e-mails
-  define('CHARSET', 'utf-8');
 
 // voettekst in includes/footer.php
   define('FOOTER_TEXT_REQUESTS_SINCE', 'sinds');
@@ -185,6 +150,8 @@
   define('ENTRY_LAST_NAME_ERROR', 'Uw achternaam moet voor ons systeem minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' letters hebben.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Geboortedatum:');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem heeft de datumnodig in het volgende formaat: DD/MM/YYYY (bijv 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
@@ -366,8 +333,6 @@
   define('SUCCESS_ADDED_TO_CART_PRODUCT', 'Gekozen artikel is in uw winkelwagen geplaatst...');
 // alleen voor meerdere artikelen in winkelwagen plaatsen:
   define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'Gekozen artikel(en) in winkelwagen geplaatst...');
-
-  define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
 
 // Actiebesparing
   define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');

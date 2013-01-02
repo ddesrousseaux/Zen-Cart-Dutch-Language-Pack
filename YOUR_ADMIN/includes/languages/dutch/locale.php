@@ -9,7 +9,7 @@
 
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-setlocale(LC_TIME, 'dutch');
+setlocale(LC_TIME, 'nl_NL.UTF-8','nl_NL@euro','nl_NL','Dutch');
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
