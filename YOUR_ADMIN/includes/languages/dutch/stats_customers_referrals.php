@@ -14,4 +14,4 @@
   define('TEXT_INFO_START_DATE', 'Startdatum (dd-mm-jjjj)');
   define('TEXT_INFO_END_DATE', 'Vervaldatum (dd-mm-jjjj)');
   define('TEXT_ORDER_NUMBER', 'Ordernr.');
-  define('TEXT_COUPON_ID', 'Discount Coupon ID');
+  define('TEXT_COUPON_ID', 'Kortingscoupon ID');
