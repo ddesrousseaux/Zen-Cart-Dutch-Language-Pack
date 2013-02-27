@@ -69,3 +69,16 @@ define('BOX_ENTRY_CUSTOMERS_COWOA_DISTINCT', '- Zonder accounts :');
 define('BOX_CONFIGURATION_COWOA', 'Cowoa configuratie');//for 1.5
 define('COWOA_WITHOUT_ACCOUNT', '(Zonder account)');
 
+define('TEXT_CANCEL', 'Annuleren');
+define('TEXT_REMOVE', 'Verwijderen');
+define('TEXT_UPDATE', 'Update');
+define('TEXT_CONFIRM_REMOVE', 'Weet u zker dat u deze widget wilt verwijderen uit het dashboard?');
+define ('TEXT_WIDGET_UPDATE_HEADER', 'Widget instellingen zijn aangepast');
+
+define ('TEXT_TIMER_SELECT_NONE', 'Niet verversen');
+define ('TEXT_TIMER_SELECT_1MIN', 'Ververs elke minuut');
+define ('TEXT_TIMER_SELECT_5MIN', 'Ververs elke 5 minuten');
+define ('TEXT_TIMER_SELECT_10MIN', 'Ververs elke 10 minuten');
+define ('TEXT_TIMER_SELECT_15MIN', 'Ververs elke 15 minuten');
+
+define ('TEXT_NO_WIDGETS_TO_INSTALL', 'Er zij op dit moment geen widgets beschikbaar om te installeren.');
