@@ -137,6 +137,15 @@
   define('PLEASE_SELECT', 'Selecteer...');
   define('TYPE_BELOW', 'Maak een keuze...');
 
+  define('TEXT_CATEGORY', 'Categorie: ');
+  define('TEXT_CONDITION', 'Conditie: ');
+  define('TEXT_CONDITION_NEW', 'Nieuw');
+
+  define('TEXT_IN_STOCK', 'op voorraad');
+  define('TEXT_OUT_OF_STOCK', 'niet op voorraad');
+  define('TEXT_INSTORE_ONLY', 'Allen in de winkel');
+  define('TEXT_PREORDER', 'Pre-Order');
+
   define('ENTRY_COMPANY', 'Bedrijfsnaam:');
   define('ENTRY_COMPANY_ERROR', 'Voer een bedrijfsnaam in.');
   define('ENTRY_COMPANY_TEXT', '');
