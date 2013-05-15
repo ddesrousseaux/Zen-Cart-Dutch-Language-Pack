@@ -674,6 +674,9 @@ define('TEXT_NOEMAIL', 'Geen e-mail');
 define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
 define('BOX_HEADING_DASHBOARD_WIDGETS', 'Dashboard Widgets');
 
+define('TEXT_FORM_ERROR_REQUIRED', 'Verplicht');
+define('TEXT_SUBMIT', 'Verzend');
+
 ///////////////////////////////////////////////////////////
 // include additional files:
   require(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . FILENAME_EMAIL_EXTRAS);

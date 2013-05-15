@@ -436,6 +436,7 @@
   define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ...maximum aantal fout - ');
 
   define('WARNING_SHOPPING_CART_COMBINED', 'NB: Voor uw gemak hebben wij de inhoud van het winkelwagen van uw laatste bezoek alvast toegevoegd aan uw huidige winkelwagen. Controleer de inhoud van uw winkelwagen alvorens af te rekenen.');
+  define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Het aantal is aangepast naar wat er op voorraad is. ');
 
 // fout tijdens betalingverwerking $_SESSION['customers_id' komt niet voor in de tabel customers
   define('ERROR_CUSTOMERS_ID_INVALID', 'Klant gegevens kunnen niet worden gevonden!<br />Alstublieft inloggen of een nieuw account aanmaken...');

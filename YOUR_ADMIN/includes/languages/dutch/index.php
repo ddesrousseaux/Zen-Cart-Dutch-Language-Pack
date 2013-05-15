@@ -69,7 +69,6 @@ define('BOX_ENTRY_CUSTOMERS_COWOA_DISTINCT', '- Zonder accounts :');
 define('BOX_CONFIGURATION_COWOA', 'Cowoa configuratie');//for 1.5
 define('COWOA_WITHOUT_ACCOUNT', '(Zonder account)');
 
-define('TEXT_CANCEL', 'Annuleren');
 define('TEXT_REMOVE', 'Verwijderen');
 define('TEXT_UPDATE', 'Update');
 define('TEXT_CONFIRM_REMOVE', 'Weet u zker dat u deze widget wilt verwijderen uit het dashboard?');
@@ -82,3 +81,14 @@ define ('TEXT_TIMER_SELECT_10MIN', 'Ververs elke 10 minuten');
 define ('TEXT_TIMER_SELECT_15MIN', 'Ververs elke 15 minuten');
 
 define ('TEXT_NO_WIDGETS_TO_INSTALL', 'Er zij op dit moment geen widgets beschikbaar om te installeren.');
+define('TEXT_FORM_ERROR_CHOOSE_ZONE', 'Please choose a Zone');
+define('TEXT_WARNING_SUPERUSER_REQUIRED', 'Only a Superuser can complete the initial setup. You will not be able to use your Admin until this is done.');
+define('TEXT_HEADING_SETUP_WIZARD', 'Initial Setup Wizard');
+
+define('TEXT_FORM_LEGEND_REQUIRED_SETUP', 'Required Setup Information');
+define('TEXT_FORM_LABEL_STORE_NAME', 'Store Name');
+define('TEXT_FORM_LABEL_STORE_OWNER', 'Store Owner');
+define('TEXT_FORM_LABEL_STORE_OWNER_EMAIL', 'Store Owner Email');
+define('TEXT_FORM_LABEL_STORE_COUNTRY', 'Store Country');
+define('TEXT_FORM_LABEL_STORE_ZONE', 'Store Zone');
+define('TEXT_FORM_LABEL_STORE_ADDRESS', 'Store Address');

@@ -4,8 +4,24 @@ attribute_controller.php
   regel 126: define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO_MANUAL','Or, Manually enter the Product by products_id to copy all attributes to:');
   regel 130:  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO_MANUAL','Or, Manually enter the Category by categories_id to copy all attributes to:');
 
+coupon_admin.php
+  meerdere regels
+
 coupon_restrict.php
-  regel 32:  define('TEXT_INFO_ADD_DENY_ALL', '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />                    For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>');
+  meerdere regels
+
+dutch.php
+  regel 84:  define('TEXT_FORM_ERROR_CHOOSE_ZONE', 'Please choose a Zone');
+  regel 85:  define('TEXT_WARNING_SUPERUSER_REQUIRED', 'Only a Superuser can complete the initial setup. You will not be able to use your Admin until this is done.');
+  regel 86:  define('TEXT_HEADING_SETUP_WIZARD', 'Initial Setup Wizard');
+  regel 87:  define('TEXT_FORM_LEGEND_REQUIRED_SETUP', 'Required Setup Information');
+  regel 88:  define('TEXT_FORM_LABEL_STORE_NAME', 'Store Name');
+  regel 90:  define('TEXT_FORM_LABEL_STORE_OWNER', 'Store Owner');
+  regel 91:  define('TEXT_FORM_LABEL_STORE_OWNER_EMAIL', 'Store Owner Email');
+  regel 92:  define('TEXT_FORM_LABEL_STORE_COUNTRY', 'Store Country');
+  regel 93:  define('TEXT_FORM_LABEL_STORE_ZONE', 'Store Zone');
+  regel 94:  define('TEXT_FORM_LABEL_STORE_ADDRESS', 'Store Address');
+
 
 store_manager.php
   regel 31:  define('TEXT_INFO_SET_NEXT_ORDER_NUMBER', '<strong>Set next order number</strong><br />NOTE: You cannot set the order number to a value lower than any existing order already in the database.');

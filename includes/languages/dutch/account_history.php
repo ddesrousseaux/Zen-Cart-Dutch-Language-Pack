@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -23,4 +23,3 @@ define('TEXT_ORDER_COST', 'Order kosten: ');
 define('TEXT_VIEW_ORDER', 'Order weergeven');
 
 define('TEXT_NO_PURCHASES', 'Wij hebben nog niet eerder bestellingen van u ontvangen.');
-?>

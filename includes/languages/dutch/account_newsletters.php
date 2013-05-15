@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -18,4 +18,3 @@ define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'Algemene nieuwsbrief');
 define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Met nieuws over de winkel, nieuwe artikelen, aanbiedingen en overige promotie aankondigingen.');
 
 define('SUCCESS_NEWSLETTER_UPDATED', 'Uw nieuwsbrief aanmelding is aangepast.');
-?>
