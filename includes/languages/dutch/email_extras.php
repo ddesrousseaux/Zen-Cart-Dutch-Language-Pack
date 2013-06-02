@@ -8,6 +8,8 @@
  * @version $Id: email_extras.php 19690 2011-10-04 16:41:45Z drbyte $
  */
 
+if (!defined('EMAIL_FOOTER_COPYRIGHT')) define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+
 // alleen t.b.v. intern gebruik
   define('OFFICE_FROM','<strong>Van:</strong>');
   define('OFFICE_EMAIL','<strong>E-mailadres afzender:</strong>');
@@ -28,7 +30,6 @@
 // email disclaimer
   define('EMAIL_DISCLAIMER', 'Dit e-mailbericht is uitsluitend bestemd voor geadresseerde(n). Indien u deze e-mail abusievelijk hebt ontvangen, brengt u ons dan op de hoogte door een e-mail te sturen aan %s');
   define('EMAIL_SPAM_DISCLAIMER','Wij verzenden geen ongevraagde elektronische post en wij leggen daartoe ook geen gegevensbestanden aan. Indien uw e-mailadres uit ons gegevensbestand moet worden verwijderd stuur dan uw verzoek als antwoord op deze e-mail. Uw verzoek wordt zo spoedig mogelijk, zonder verdere vragen, uitgevoerd conform uw wens.');
-  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('TEXT_UNSUBSCRIBE', "\n\nOm geen nieuwsbrieven en promotie mails te ontvangen in de toekomst kunt u op de volgende link klikken en u wordt van de lijst verwijdert: \n");
 
 // email advisory t.b.v. alle e-mail die klanten genereren zoals vertel-een-vriend en cadeaubonnen

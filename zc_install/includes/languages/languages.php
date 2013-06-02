@@ -6,4 +6,6 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version GIT: $Id:
  */
-$languagesInstalled = array('en_us'=>array('displayName'=>'English(US)', 'fileName'=>'lngEnglish'),'nl_nl'=>array('displayName'=>'Nederlands(NL)', 'fileName'=>'lngDutch'));
+$languagesInstalled = array();
+$languagesInstalled['en_us'] = array('displayName'=>'English(US)', 'fileName'=>'lngEnglish');
+$languagesInstalled['nl_nl'] = array('displayName'=>'Nederlands(NL)', 'fileName'=>'lngDutch');
