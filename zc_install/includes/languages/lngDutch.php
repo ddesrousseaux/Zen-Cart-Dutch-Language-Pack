@@ -42,7 +42,7 @@ define('TEXT_SYSTEM_SETUP_ERROR_CATALOG_PHYSICAL_PATH', 'There appears to be a p
 define('TEXT_PAGE_HEADING_DATABASE', 'Database Setup');
 define('TEXT_DATABASE_SETUP_SETTINGS', 'Basisinstellingen');
 define('TEXT_DATABASE_SETUP_DB_HOST', 'Database Host: ');
-define('TEXT_DATABASE_SETUP_DB_USER', 'Database gebruker: ');
+define('TEXT_DATABASE_SETUP_DB_USER', 'Database gebruiker: ');
 define('TEXT_DATABASE_SETUP_DB_PASSWORD', 'Database wachtwoord: ');
 define('TEXT_DATABASE_SETUP_DB_NAME', 'Database naam: ');
 define('TEXT_DATABASE_SETUP_DEMO_SETTINGS', 'Demo Data');
