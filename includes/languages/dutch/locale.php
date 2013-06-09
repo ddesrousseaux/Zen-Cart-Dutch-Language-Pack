@@ -1,19 +1,25 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id$
  */
 
-// look in your PHP $PATH_LOCALE/locale directory for available locales..
-  @setlocale(LC_TIME, 'nl_NL.UTF-8','nl_NL@euro','nl_NL','Dutch');
+// look in your $PATH_LOCALE/locale directory for available locales..
+// recommended to list all values for your language in this array. And include at least the 3 versions: 'en_US', 'en_US.utf8', 'en'. These help support multiple server configurations (since IIS and Windows are less reliably configured)
+  $locales = array('nl_NL.UTF-8','nl_NL@euro','nl_NL','Dutch');
+
+// For the most part, LC_TIME is fine here. On rare occasions you might need to change this to LC_ALL.
+  @setlocale(LC_TIME, $locales);
+
   define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // wordt gebruikt voor strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // wordt gebruikt voor strftime()
   define('DATE_FORMAT', 'd/m/Y'); // wordt gebruikt voor date()
   define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
+  define('ORDER_EMAIL_DATE_FORMAT', 'd-M-Y h:iA'); // wordt gebruikt voor date() -- see http://www.php.net/manual/en/function.date.php
 // Datum in onopgemaakt formaat
 // $date moet alsvolgt zijn dd/mm/yyyy
 // onopgemaakte datum is YYYYMMDD, of DDMMYYYY
@@ -40,7 +46,7 @@
   define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
   define('ENTRY_DATE_OF_BIRTH_ERROR', 'U moet uw geboortedatum als volgt invullen: ' . DOB_FORMAT_STRING);
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (eg. ' . DOB_FORMAT_STRING . ')');
+  define('ENTRY_DATE_OF_BIRTH_EXAMPLE', ' (bijv. ' . DOB_FORMAT_STRING . ')');
 
 
   define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
