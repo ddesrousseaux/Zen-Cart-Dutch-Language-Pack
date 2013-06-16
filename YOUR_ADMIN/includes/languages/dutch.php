@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -676,6 +676,12 @@ define('BOX_HEADING_DASHBOARD_WIDGETS', 'Dashboard Widgets');
 
 define('TEXT_FORM_ERROR_REQUIRED', 'Verplicht');
 define('TEXT_SUBMIT', 'Verzend');
+
+// moved from currencies file:
+define('TEXT_INFO_CURRENCY_UPDATED', 'De wisselkoers voor %s (%s) is met succes aangepast via %s.');
+define('ERROR_CURRENCY_INVALID', 'Foutmelding: De wisselkoers voor %s (%s) is niet aangepast via %s. Klopt de valuta code?');
+define('WARNING_PRIMARY_SERVER_FAILED', 'Waarschuwing: De primaire server voor wisselkoersen (%s) is niet bereikt voor %s (%s) - Probeer de secondaire server.');
+
 
 ///////////////////////////////////////////////////////////
 // include additional files:

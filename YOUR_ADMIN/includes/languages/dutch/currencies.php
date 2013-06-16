@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -32,9 +32,5 @@ define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nieuwe valuta');
 define('TEXT_INFO_HEADING_EDIT_CURRENCY', 'Wijzig valuta');
 define('TEXT_INFO_HEADING_DELETE_CURRENCY', 'Verwijder valuta');
 define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . ' (wisselkoers moet handmatig aangepast worden)');
-define('TEXT_INFO_CURRENCY_UPDATED', 'De wisselkoers voor %s (%s) is met succes aangepast via %s.');
-
 define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Foutmelding: De valuta die is ingesteld als standaard kan niet worden verwijderd. Kies eerst een andere valuta als standaard en probeer het dan nogmaals.');
-define('ERROR_CURRENCY_INVALID', 'Foutmelding: De wisselkoers voor %s (%s) is niet aangepast via %s. Klopt de valuta code?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Waarschuwing: De primaire server voor wisselkoersen (%s) is niet bereikt voor %s (%s) - Probeer de secondaire server.');
 define('ERROR_INVALID_CURRENCY_ENTRY', 'ERROR: De informatie die u heeft verzonden was onvolledig, en is nog niet opgeslagen. U moet een valuta code en een naam opgeven.');

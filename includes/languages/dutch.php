@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines Dutch
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch.php based on english.php 19690 2011-10-04 16:41:45Z drbyte $
