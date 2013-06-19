@@ -53,6 +53,8 @@ define('TEXT_GV_REDEEM','Inwisselcode');
 define('MALE', 'De heer');
 define('FEMALE', 'Mevrouw');
 
+define('NONE', 'Niks');
+
 // configuration box text
 define('BOX_HEADING_CONFIGURATION', 'Configuratie');
 define('BOX_CONFIGURATION_MY_STORE', 'Mijn winkel');
@@ -470,7 +472,7 @@ define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Bijwerken rangschikking 
   define('IMAGE_UPDATE_SORT','Bijwerk sorteer order');
   define('IMAGE_EDIT_PRODUCT','Wijzig artikel');
   define('IMAGE_EDIT_ATTRIBUTES','Wijzig opties van artikel');
-  define('TEXT_NEW_PRODUCT', 'Artikel in categorie: &quot;%s&quot;');
+  define('TEXT_NEW_PRODUCT', 'Artikel in categorie: %s');
   define('IMAGE_OPTIONS_VALUES','Optienamen en optiewaarden');
   define('TEXT_PRODUCTS_PRICE_MANAGER','Artikelprijs manager');
   define('TEXT_PRODUCT_EDIT','Wijzig artikel');
@@ -531,6 +533,7 @@ define('TEXT_LEGEND_STATUS_ON', 'Status AAN');
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Opmerking: Hoofdcategorie wordt gebruikt voor prijsstrategie waar de<br /> artikel categorie van invloed is op gekoppelde artikelen, voorbeeld: Aanbieding of Uitverkoop</strong>');
 define('TEXT_YES', 'Ja');
 define('TEXT_NO', 'Nee');
+define('TEXT_CANCEL', 'Annuleren');
 
 // shipping error messages
 define('ERROR_SHIPPING_CONFIGURATION', '<strong>Configuratie verzendmethoden foutmelding!</strong>');

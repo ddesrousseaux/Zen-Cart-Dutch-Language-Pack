@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2009 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -137,11 +137,6 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','Dit artikelsoort kan niet aan deze categ
   define('TEXT_CATEGORIES_IMAGE_DIR','Overbrengen naar directory:');
   define('TEXT_CATEGORIES_IMAGE_MANUAL', '<strong>Of, selecteer een bestaand image bestand van de server, bestandsnaam:</strong>');
 
-  define('TEXT_VIRTUAL_PREVIEW','Waarschuwing: bij dit artikel is het volgende aangevinkt - VIRTUEEL en vraagt daarom niet om een afleveradres');
-  define('TEXT_VIRTUAL_EDIT','Waarschuwing: bij dit artikel is het volgende aangevinkt - VIRTUEEL en vraagt daarom niet om een afleveradres');
-  define('TEXT_FREE_SHIPPING_PREVIEW','Waarschuwing: bij dit artikel is het volgende aangevinkt - GRATIS VERZENDEN, heeft wel een afleveradres nodig');
-  define('TEXT_FREE_SHIPPING_EDIT','Waarschuwing: indien Ja wordt artikel gratis verzonden, wel afleveradres nodig');
-
   define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW','Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1');
   define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT','Waarschuwing: Laat geen voorraad zien, standaard ingesteld op 1');
 
@@ -163,7 +158,6 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','Dit artikelsoort kan niet aan deze categ
 
   define('TEXT_PRODUCTS_MIXED','Minimale bestelhoeveelheid / verpakkingseenheid mix:');
 
-  define('PRODUCTS_PRICE_IS_FREE_TEXT', 'Artikel is gratis');
   define('TEXT_PRODUCT_IS_FREE','Artikel is gratis:');
   define('TEXT_PRODUCTS_IS_FREE_PREVIEW','*Artikel is gratis');
   define('TEXT_PRODUCTS_IS_FREE_EDIT','*Artikel is gratis');
@@ -200,14 +194,13 @@ define('TEXT_PRODUCTS_STATUS_ON_OF',' van ');
 define('TEXT_PRODUCTS_STATUS_ACTIVE',' actief ');
 
 define('TEXT_CATEGORIES_DESCRIPTION', 'Beschrijving categorie:');
-define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Informeer naar prijs bij dit artikel');
 
 // Metatags
-  define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Categorie Meta Tags Definitie');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Definieëer Custom Meta Tags');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Titel:');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Keywords:');
-  define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Meta Tag Omschrijving:');
+define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Categorie Meta Tags Definitie');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Definieëer Custom Meta Tags');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Titel:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Keywords:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Meta Tag Omschrijving:');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'Waarschuwing: Er staan artikelen in de hoogste categorie. Hierdoor worden de artikelen niet goed geprijsd. Gevonden artikelen: ');
 

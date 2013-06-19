@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -66,13 +66,12 @@ define('BOX_ENTRY_CUSTOMERS_COWOA', '- Zonder accounts:');
 define('BOX_ENTRY_CUSTOMERS_TOTAL', 'Totaal aantal klantaccounts:');
 define('BOX_ENTRY_CUSTOMERS_TOTAL_DISTINCT', 'Totaal aantal verschillende klanten:');
 define('BOX_ENTRY_CUSTOMERS_COWOA_DISTINCT', '- Zonder accounts :');
-define('BOX_CONFIGURATION_COWOA', 'Cowoa configuratie');//for 1.5
 define('COWOA_WITHOUT_ACCOUNT', '(Zonder account)');
 
 define('TEXT_REMOVE', 'Verwijderen');
 define('TEXT_UPDATE', 'Update');
 define('TEXT_CONFIRM_REMOVE', 'Weet u zker dat u deze widget wilt verwijderen uit het dashboard?');
-define ('TEXT_WIDGET_UPDATE_HEADER', 'Widget instellingen zijn aangepast');
+define('TEXT_WIDGET_UPDATE_HEADER', 'Widget instellingen zijn aangepast');
 
 define ('TEXT_TIMER_SELECT_NONE', 'Niet verversen');
 define ('TEXT_TIMER_SELECT_1MIN', 'Ververs elke minuut');
