@@ -4,7 +4,7 @@
  * @package Installer
  * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id:
+ * @version GIT: $Id: $
  */
 /**
  * defining language components for the page
@@ -51,7 +51,6 @@ define('TEXT_DATABASE_SETUP_ADVANCED_SETTINGS', 'Geavanceerde instellingen');
 define('TEXT_DATABASE_SETUP_DB_CHARSET', 'Database Character Set: ');
 define('TEXT_DATABASE_SETUP_DB_PREFIX', 'Store Prefix: ');
 define('TEXT_DATABASE_SETUP_SQL_CACHE_METHOD', 'SQL Cache Methode: ');
-define('TEXT_DATABASE_SETUP_SQL_CACHE_DIRECTORY', 'SQL Cache Directory: ');
 define('TEXT_DATABASE_SETUP_JSCRIPT_SQL_ERRORS1', '<p>Some errors occured when running the sql install file');
 define('TEXT_DATABASE_SETUP_JSCRIPT_SQL_ERRORS2', '<br>Please see error logs for more details<p>');
 define('TEXT_DATABASE_SETUP_CHARSET_OPTION_UTF8', 'UTF-8(default setting)');
@@ -65,6 +64,7 @@ define('TEXT_EXAMPLE_DB_PWD', 'enter the password for your MySQL user');
 define('TEXT_EXAMPLE_DB_PREFIX', "usually best left blank, or use 'zen_'");
 define('TEXT_EXAMPLE_DB_NAME', 'enter your MySQL database name');
 define('TEXT_EXAMPLE_CACHEDIR', 'usually points to the equivalent of /your/user/home/public_html/zencart/cache folder');
+
 define('TEXT_DATABASE_SETUP_CONNECTION_ERROR_DIALOG_TITLE', 'There are some problems');
 define('TEXT_CREATING_DATABASE', 'Creating Database');
 define('TEXT_LOADING_CHARSET_SPECIFIC', 'Loading Character Set specific data');
@@ -91,7 +91,9 @@ define('TEXT_ADMIN_SETUP_NEWSLETTER_OPTIN', 'Opt In: ');
 
 
 define('TEXT_PAGE_HEADING_COMPLETION', 'Setup afgerond');
-define('TEXT_COMPLETION_INSTALL_COMPLETE', 'Installation is now complete. You can access your store front and your Administration area using the links below.');
+define('TEXT_COMPLETION_HEADER_MAIN', '');
+define('TEXT_COMPLETION_INSTALL_COMPLETE', 'Installation is now complete.');
+define('TEXT_COMPLETION_INSTALL_LINKS_BELOW', 'You can access your storefront and your Administration area using the links below.');
 define('TEXT_COMPLETION_UPGRADE_COMPLETE', 'Congratulations, your upgrade is now complete.');
 define('TEXT_COMPLETION_ADMIN_DIRECTORY_WARNING', 'Your admin directory could not be renamed automatically, you will need to rename your admin directory before accessing it');
 define('TEXT_COMPLETION_INSTALLATION_DIRECTORY_WARNING', "You need to remove the /zc_install/ folder so that someone can't re-install your shop again and wipe out your database! A message will appear and you will not be able to log into your admin until the folder has been removed.");
@@ -120,14 +122,19 @@ define('TEXT_NAVBAR_ADMIN_SETUP', 'Admin Setup');
 define('TEXT_NAVBAR_COMPLETION', 'Afgerond');
 define('TEXT_NAVBAR_PAYMENT_PROVIDERS', 'Payment Providers');
 
-define('TEXT_ERROR_STORE_CONFIGURE', 'Store configure.php does not exist(isn\'t readable) and/or is not writeable');
-define('TEXT_ERROR_ADMIN_CONFIGURE', 'Admin configure.php does not exist or is not writeable');
+define('TEXT_ERROR_STORE_CONFIGURE', "Main /includes/configure.php file does not exist (isn't readable) or is not writeable");
+define('TEXT_ERROR_ADMIN_CONFIGURE', "Admin /admin/includes/configure.php does not exist (isn't readable) or is not writeable");
 define('TEXT_ERROR_PHP_VERSION', 'Incorrect PHP Version');
 define('TEXT_ERROR_PHP_VERSION_MIN', 'PHP Version should be greater than %s');
 define('TEXT_ERROR_PHP_VERSION_MAX', 'PHP Version should be less than %s');
-define('TEXT_ERROR_MYSQL_SUPPPORT', 'Problems with your mysql support');
-define('TEXT_ERROR_LOG_FOLDER', '/logs/ folder is not writeable');
-define('TEXT_ERROR_CACHE_FOLDER', '/cache/ folder is not writeable');
+define('TEXT_ERROR_MYSQL_SUPPPORT', 'Problems with your MySQL (mysqli) support');
+define('TEXT_ERROR_LOG_FOLDER', DIR_FS_LOGS . ' folder is not writeable');
+define('TEXT_ERROR_CACHE_FOLDER', DIR_FS_SQL_CACHE . ' folder is not writeable');
+define('TEXT_ERROR_IMAGES_FOLDER', '/images/ folder is not writeable');
+define('TEXT_ERROR_DEFINEPAGES_FOLDER', '/includes/languages/english/html_includes/ folder is not writeable');
+define('TEXT_ERROR_MEDIA_FOLDER', '/media/ folder is not writeable');
+define('TEXT_ERROR_PUB_FOLDER', DIR_FS_DOWNLOAD_PUBLIC . ' folder is not writeable'); 
+
 define('TEXT_ERROR_HTACCESS_SUPPPORT', 'Problems with .htaccess support');
 define('TEXT_ERROR_SESSION_SUPPPORT', 'Problems with session support');
 define('TEXT_ERROR_SESSION_SUPPPORT_USE_TRANS_SID', 'ini setting session.use_trans_sid is enabled');
@@ -146,7 +153,7 @@ define('TEXT_ERROR_XML', 'XML Extension not enabled');
 define('TEXT_ERROR_GZIP', 'Gzip Extension not enabled');
 define('TEXT_ERROR_EXTENSION_NOT_LOADED', '%s extension does not seem to be loaded');
 define('TEXT_ERROR_FUNCTION_DOES_NOT_EXIST', 'PHP function %s does not exist');
-define('TEXT_ERROR_CURL_LIVE_TEST', 'Could not use Curl to contact a live server');
+define('TEXT_ERROR_CURL_LIVE_TEST', 'Could not use CURL to contact a live server');
 define('TEXT_ERROR_HTTPS', 'If possible you should already have installed an SSL certificate, and run the installer using https://');
 define('TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE', 'An existing configure.php file was found. The installer will attempt to upgrade your Database Settings');
 define('TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE_NO_UPDATE', 'An existing configure.php file was found. However your Database seems to be current. Are you sure you want to install?');
@@ -215,12 +222,18 @@ define('TEXT_HELP_CONTENT_ADMINPASSWORD', "REMEMBER THIS PASSWORD!!!!! This is t
 define('TEXT_HELP_TITLE_ADMINDIRECTORY', 'Admin Directory');
 define('TEXT_HELP_CONTENT_ADMINDIRECTORY', "We try to rename your admin folder for you automatically, to offer a degree of security-by-obscurity. While we understand that this doesn't make it foolproof, it does discourage unauthorized visitors from attacking your site. You may still consider changing the foldername yourself (just rename the folder to whatever you wish it to be).");
 
+define('TEXT_VERSION_CHECK_NEW_VER', 'New Version Available v');
+define('TEXT_VERSION_CHECK_NEW_PATCH', 'New PATCH Available: v');
+define('TEXT_VERSION_CHECK_PATCH', 'patch');
+define('TEXT_VERSION_CHECK_DOWNLOAD', 'Download Here');
+define('TEXT_VERSION_CHECK_CURRENT', 'Your version of Zen Cart&reg; appears to be current.');
+define('TEXT_ERROR_NEW_VERSION_AVAILABLE', '<a href="http://www.zen-cart.com/getit">There is a NEWER version of Zen Cart&reg; available, which you can download from </a><a href="http://www.zen-cart.com" style="text-decoration:underline" target="_blank">www.zen-cart.com</a>');
+
+define('TEXT_DB_VERSION_NOT_FOUND', 'A Zen Cart database for %s was not found!');
 
 
 
-
-
-define('TEXT_HELP_TITLE_AGREETOTERMS', 'Ga akkord met de voorwaarden');
+define('TEXT_HELP_TITLE_AGREETOTERMS', 'Akkoord met de voorwaarden');
 define('TEXT_HELP_CONTENT_AGREETOTERMS', "<h2>The GNU General Public License (GPL)</h2>
 
 <h3>Version 2, June 1991</h3>
@@ -235,7 +248,7 @@ define('TEXT_HELP_CONTENT_AGREETOTERMS', "<h2>The GNU General Public License (GP
 
     <strong><p>Preamble</p></strong>
 
-  <p>The licenses for most software are designed to take away your 
+  <p>The licenses for most software are designed to take away your
 freedom to share and change it.  By contrast, the GNU General Public
 License is intended to guarantee your freedom to share and change free
 software--to make sure the software is free for all its users.  This

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -119,4 +119,5 @@ define('TEXT_INFO_EXPIRED_COUNT', 'Verlopen Telling:<br />');
 define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Klant<br />Commentaar');
 define('TEXT_COMMENTS_YES', 'Klant commentaar - JA');
 define('TEXT_COMMENTS_NO', 'Klant commentaar - NEE');
-?>
+
+define('TEXT_CUSTOMER_LOOKUP', 'Klant opzoeken');

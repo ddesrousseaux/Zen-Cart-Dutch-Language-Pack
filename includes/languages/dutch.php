@@ -557,6 +557,8 @@
   define('TABLE_HEADING_LOGIN_DETAILS', 'Logingegevens');
   define('TABLE_HEADING_REFERRAL_DETAILS', 'Bent u op ons geattendeerd?');  // beter vertalen
 
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Sorry, but we no longer accept billing or shipping addresses in "%s".  Please update this address to continue.');
+
   define('ENTRY_EMAIL_PREFERENCE','Nieuwsbrief en e-mail voorkeuren');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
   define('ENTRY_EMAIL_TEXT_DISPLAY','Alleen tekst');

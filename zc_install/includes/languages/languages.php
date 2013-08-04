@@ -8,4 +8,5 @@
  */
 $languagesInstalled = array();
 $languagesInstalled['en_us'] = array('displayName'=>'English(US)', 'fileName'=>'lngEnglish');
-$languagesInstalled['nl_nl'] = array('displayName'=>'Nederlands(NL)', 'fileName'=>'lngDutch');
+$languagesInstalled['nl_nl'] = array('displayName'=>'Nederlands', 'fileName'=>'lngDutch');
+

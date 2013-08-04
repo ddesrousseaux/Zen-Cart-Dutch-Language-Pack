@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -41,6 +41,17 @@ define('ENTRY_NONE', 'Geen');
 
 define('TABLE_HEADING_COMPANY','Bedrijf');
 
+define('TEXT_INFO_HEADING_RESET_CUSTOMER_PASSWORD', 'Reset Customer Password');
+define('TEXT_PWDRESET_INTRO', 'To reset the password for this customer, enter a new password, and confirm it, below. The new password must conform to the normal password rules imposed on customers.');
+define('TEXT_CUST_NEW_PASSWORD', 'New Password:');
+define('TEXT_CUST_CONFIRM_PASSWORD', 'Confirm Password:');
+define('ERROR_PWD_TOO_SHORT', 'Error: password is shorter than the number of characters configured for this store.');
+define('SUCCESS_PASSWORD_UPDATED', 'Password updated.');
+
+define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE', 'Your password has been changed by the store administrator. Your new password is: ');
+define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Account password reset');
+define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN', 'You have reset the password for a customer: ' . "\n" . '%s' . "\n\n" . 'Administrator ID: %s');
+
 define('CUSTOMERS_AUTHORIZATION', 'Status toegang klant ');
 define('CUSTOMERS_AUTHORIZATION_0', 'Akkoord');
 define('CUSTOMERS_AUTHORIZATION_1', 'Lopende goedkeuring - moet goedgekeurd zijn om te surfen');
@@ -67,3 +78,4 @@ define('COWOA_SECTION_HEADING', 'Account Status');
 // Detail output on customer details page 
 define('COWOA_STATUS_TRUE', 'Afrekenen zonder een account');
 define('COWOA_STATUS_FALSE', 'Voledige account aangemaakt');
+

@@ -1,11 +1,11 @@
 <?php
 /**
-* @package admin
-* @copyright Copyright 2003-2013 Zen Cart Development Team
-* @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
-* @version $Id: dutch translation voor zen cart 1.6.x
-* @version $Id$
-*/
+ * @package admin
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: dutch translation voor zen cart 1.6.x
+ * @version $Id$
+ */
 
 
 // look in your $PATH_LOCALE/locale directory for available locales..
@@ -19,15 +19,14 @@ define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
-define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 define('DATE_FORMAT_DATEPICKER_ADMIN', zen_date_datepicker(DATE_FORMAT));  //Use only 'dd', 'mm' and 'yy' here in any order
 
-////
-// Return date in raw format - DEPRECATED
-// $date should be in format mm/dd/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-// Onderstaand is Nederlandse notatie voor geboortedata 
+/**
+ * Return date in raw format - DEPRECATED
+ * $date should be in format mm/dd/yyyy
+ * raw date is in format YYYYMMDD, or DDMMYYYY
+ */
 function zen_date_raw($date, $reverse = false) {
   if ($reverse) {
     return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);

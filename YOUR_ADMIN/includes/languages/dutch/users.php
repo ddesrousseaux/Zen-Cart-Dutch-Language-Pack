@@ -1,7 +1,7 @@
 <?php
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -11,7 +11,6 @@
 define('HEADING_TITLE', 'Admingebruikers');
 
 define('IMAGE_ADD_USER', 'Voeg gebruiker toe');
-define('IMAGE_RESET_PWD', 'Reset Wachtwoord');
 
 define('TEXT_ID', 'ID');
 define('TEXT_NAME', 'Naam');
