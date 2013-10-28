@@ -22,7 +22,7 @@ define('ERROR_SECURITY_ERROR', 'Er heeft zich een veiligheidsfout voorgedaan toe
 
 define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
 
-define('LOGIN_EXPIRY_NOTICE', 'Houdt u er rekening mee dat na 15 minuten inactiviteit, u verplicht opnieuw moet inloggen.<br /><br />Let op: Alle wachtwoorden verlopen elke 90 dagen.');
+define('LOGIN_EXPIRY_NOTICE', 'Houdt u er rekening mee dat na ' . round(SESSION_TIMEOUT_ADMIN/60) . ' minuten inactiviteit, u verplicht opnieuw moet inloggen.<br /><br />Let op: Alle wachtwoorden verlopen elke 90 dagen.');
 define('ERROR_PASSWORD_EXPIRED', 'LET OP: Uw wachtwoord is verlopen. Selecteer een nieuw wachtwoord. Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
 define('TEXT_TEMPORARY_PASSWORD_MUST_BE_CHANGED', 'Om veiligheidsredenen, dient uw tijdelijke wachtwoord te worden gewijzigd. Selecteer een nieuw wachtwoord.<br />Uw wachtwoord <strong> moet zowel cijfers als letters bevatten en uit minimaal 7 tekens bestaan.</strong>');
 

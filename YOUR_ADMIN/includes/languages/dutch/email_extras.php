@@ -25,7 +25,7 @@
   define('OFFICE_DATE_TIME','Datum en tijd:');
 
 // e-mail disclaimer
-  define('EMAIL_DISCLAIMER', 'Dit e-mailadres is door u of één van onze klanten aan ons verstrekt. Indien u vindt dat u deze e-mail niet had willen of mogen ontvangen of heeft ontvangen als gevolg van een fout kunt u een e-mail sturen aan %s ');
+  define('EMAIL_DISCLAIMER', "\n" . 'Dit e-mailadres is door u of één van onze klanten aan ons verstrekt. Indien u vindt dat u deze e-mail niet had willen of mogen ontvangen of heeft ontvangen als gevolg van een fout kunt u een e-mail sturen aan %s ');
   define('EMAIL_SPAM_DISCLAIMER','Indien uw e-mailadres uit ons bestand moet worden verwijderd ontvangen wij dit verzoek graag als reply op dit adres. Uw verzoek wordt zo spoedig mogelijk, zonder verdere vragen, in behandeling genomen en uitgevoerd conform uw wens.');
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[door ADMIN verstuurd]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[Kortingsbonnen]');

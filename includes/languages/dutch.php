@@ -321,7 +321,8 @@
   define('TEXT_ERROR', 'Er heeft zich een fout voorgedaan');
   define('TEXT_INVALID_COUPON_PRODUCT', 'Deze inwisselcode kan niet gebruikt worden voor het type artikelen in uw winkelwagentje.');
   define('TEXT_VALID_COUPON', 'Gefeliciteerd, u heeft de kortingsbon ingewisseld');
-  define('TEXT_REMOVE_REDEEM_COUPON_ZONE', 'Deze kortingscoupon kan niet worden gebruikt icm uw adres.');
+  define('TEXT_REMOVE_REDEEM_COUPON_ZONE', 'Deze kortingscoupon code kan niet worden gebruikt icm uw adres.');
+  define('TEXT_INVALID_COUPON_ORDER_LIMIT', 'Deze kortingscoupon code is niet geldig voor klanten met meer dan %s bestellin(en).');
 
 // meer info inplaats van koop nu
   define('MORE_INFO_TEXT','... meer info');

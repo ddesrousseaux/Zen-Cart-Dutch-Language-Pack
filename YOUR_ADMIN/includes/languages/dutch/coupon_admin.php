@@ -61,9 +61,17 @@ define('COUPON_AMOUNT', 'Waarde kortingsbon:');
 define('COUPON_CODE', 'Inwisselcode kortingsbon:');
 define('COUPON_STARTDATE', 'Startdatum:');
 define('COUPON_FINISHDATE', 'Vervaldatum:');
+define('COUPON_RESTRICTIONS', 'Restrictions');
 define('COUPON_FREE_SHIP', 'Gratis verzenden:');
 define('COUPON_DESC', 'Beschrijving kortingsbon:<br />(Is zichtbaar voor klant)');
 define('COUPON_MIN_ORDER', 'Minimale bestelwaarde kortingsbon:');
+
+define('COUPON_TOTAL', 'Coupon Minimum calculated from: ');
+define('TEXT_COUPON_TOTAL_PRODUCTS', 'Allowed Products');
+define('TEXT_COUPON_TOTAL_PRODUCTS_BASED', '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Based on Total of Allowed Products according to Coupon Restriction Rules)');
+define('TEXT_COUPON_TOTAL_ORDER', 'All Products');
+define('TEXT_COUPON_TOTAL_ORDER_BASED', '<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Based on Full Order Total of All Products Regardless of Qualifying Coupon Restrictions)');
+
 define('COUPON_USES_COUPON', 'Maximum aantal keer gebruik kortingsbon:');
 define('COUPON_USES_USER', 'Maximum aantal keer gebruik kortingsbon per klant:');
 define('COUPON_PRODUCTS', 'Geldige artikellijst');
@@ -75,6 +83,9 @@ define('TEXT_HEADING_NEW_COUPON', 'Maak nieuwe kortingsbon');
 define('TEXT_NEW_INTRO', 'Voer de nieuwe kortingsbon in met alle relevante gegevens<br />');
 define('COUPON_ZONE_RESTRICTION', 'Coupon Zone Restrictie: ');
 define('TEXT_COUPON_ZONE_RESTRICTION', 'Coupon Zone Restrictie is een optie.');
+define('COUPON_ORDER_LIMIT', 'Customer Orders less than: ');
+define('COUPON_ORDER_LIMIT_HELP', 'Customer Orders less than, leave blank for unlimited');
+
 
 define('ERROR_NO_COUPON_AMOUNT', '<strong>Foutmelding:</strong> geen waarde van de kortingsbon ingevuld.');
 define('ERROR_NO_COUPON_NAME', '<strong>Foutmelding:</strong> geen naam van de kortingsbon ingevuld.');
@@ -86,9 +97,10 @@ define('COUPON_AMOUNT_HELP', 'De korting die deze bon geeft. Dit kan een vast be
 define('COUPON_CODE_HELP', 'Indien niets ingevuld wordt er automatisch een code voor de kortingsbon aangemaakt en anders kun je zelf een code samenstellen.');
 define('COUPON_STARTDATE_HELP', 'Startdatum is de 1e dag waarop deze kortingsbon geldig is. Kan ook in de toekomst liggen door gebruik bij een actie (bijv. Sinterklaas, Kerst, Pasen, jubileum, etc)');
 define('COUPON_FINISHDATE_HELP', 'Vervaldatum is de eerste dag waarop deze kortingsbon niet meer ingewisseld kan worden. Bij internationale klanten moet je rekening houden met tijdsverschil. Tijd op de geïnstalleerde server is leidend bij acceptatie door systeem.');
-define('COUPON_FREE_SHIP_HELP', 'De kortingsbon geeft recht op <strong>gratis</strong> verzenden. <strong>Opmerking:</strong> dit gaat voor de waarde ingevuld bij COUPON_AMOUNT maar houd wel rekening met de minimale waarde van een bestelling.');
 define('COUPON_DESC_HELP', 'Een beschrijving van de kortingsbon als uitleg voor de klant.');
 define('COUPON_MIN_ORDER_HELP', 'Minimum waarde van de bestelling voordat de kortingsbon geldig is en gebruikt kan worden (bijv. vanaf €50 bestelling excl. verzenden en BTW.)');
+define('COUPON_MIN_ORDER_HELP', 'Coupon Minimum Order');
+define('COUPON_TOTAL_HELP', 'If you specify a Coupon Minimum Order for this Discount Coupon, do you want the Minimum amount to be based on Allowed Products according to Coupon Restriction Rules or the Full Order Total, when determining if the Coupon Minimum Order has been met?<br />NOTE: Full Order Total means at least 1 of the Qualifying Restricted Products must be in the cart for the Discount Coupon to work.');
 define('COUPON_USES_COUPON_HELP', 'Het aantal keer dat de kortingsbon gebruikt kan worden door iedereen. Indien niet ingevuld is dit onbeperkt.');
 define('COUPON_USES_USER_HELP', 'Het aantal keer dat de kortingsbon door <strong>één klant</strong> kan worden gebruikt. Indien niet ingevuld is dit onbeperkt.');
 define('COUPON_PRODUCTS_HELP', 'Een comma separated (.csv) lijst met artikelen waar deze kortingsbon geldig voor is. Indien niet ingevuld is dit onbeperkt.');

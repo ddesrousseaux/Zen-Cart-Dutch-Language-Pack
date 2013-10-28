@@ -1,7 +1,7 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dutch translation voor zen cart 1.6.x
@@ -9,7 +9,13 @@
  */
 
 // pagina titel
-define('TITLE', 'Zen Cart');
+if (IS_ADMIN_FLAG) 
+{
+  define('TITLE', 'Admin '. STORE_NAME);
+} else 
+{
+  define('TITLE', STORE_NAME);
+}
 
 // Site slogan
 define('SITE_TAGLINE', 'De kunst van eCommerce');
@@ -60,8 +66,4 @@ define('META_TAGS_REVIEW', 'Recensies: ');
 // Dit word normaal gesproken gebruikt voor account-beheerpaginas en specifieke SSL paginas, normaal niet nodig hier aanpassingen in te doen.
   define('ROBOTS_PAGES_TO_SKIP','login,logoff,create_account,account,account_edit,account_history,account_history_info,account_newsletters,account_notifications,account_password,address_book,advanced_search,advanced_search_result,checkout_success,checkout_process,checkout_shipping,checkout_payment,checkout_confirmation,cookie_usage,create_account_success,contact_us,download,download_timeout,customers_authorization,down_for_maintenance,password_forgotten,time_out,unsubscribe,info_shopping_cart,popup_image,popup_image_additional,product_reviews_write,ssl_check,shopping_cart');
 
-
-// Favorieten icoontje, favicon
-// Normaal hoeft u dit NIET te gebruiken tenzij u het icoontje buiten de hooddirectory wil plaatsen danwel het icoontje een andere bestandnaam wil geven dan favicon.ico
-//  define('FAVICON','favicon.ico');
 

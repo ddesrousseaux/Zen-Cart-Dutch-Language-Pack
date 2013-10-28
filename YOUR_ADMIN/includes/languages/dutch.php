@@ -581,8 +581,8 @@ define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
 
 // Rich Text / HTML resources
 define('TEXT_HTML_EDITOR_NOT_DEFINED','Indien u geen HTML editor heeft gekozen of JavaScript is uitgezet dan kun je hier raw HTML text handmatig invoeren.');
-define('TEXT_WARNING_HTML_DISABLED','<span class = "main">Opmerking: je gebruikt TEXT only e-mail. Als je HTML e-mail wil versturen moet je "gebruik MIME HTML" onder e-mail opties selecteren</span>');
-define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">Opmerking: je gebruikt TEXT only e-mail. Als je HTML e-mail wil versturen moet je "gebruik MIME HTML" onder e-mail opties selecteren</span>');
+define('TEXT_WARNING_HTML_DISABLED','<span class = "main">Opmerking: je gebruikt TEXT only e-mail. Als je HTML e-mail wil versturen moet je "Enable HTML Emails" onder e-mail opties selecteren</span>');
+define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">Opmerking: je gebruikt TEXT only e-mail. Als je HTML e-mail wil versturen moet je "Enable HTML Emails" onder e-mail opties selecteren</span>');
 define('TEXT_EMAIL_CLIENT_CANT_DISPLAY_HTML',"U ziet deze tekst omdat wij u een e-mail hebben gestuurd in HTML-formaat maar uw e-mail client niet in staat is dit te tonen.");
 define('ENTRY_EMAIL_PREFERENCE','E-mail formaat voorkeur:');
 define('ENTRY_EMAIL_FORMAT_COMMENTS','De keuze "none" of "opt-out" zet alle e-mail uit, inclusief details over bestellingen');
